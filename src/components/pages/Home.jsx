@@ -19,12 +19,14 @@ function Home() {
                         <div className="name">
                             <h4>Green trainers</h4>
                             <p>
+                                <FontAwesomeIcon icon="fa-solid fa-naira-sign" />
                                 450,000
                             </p>
                         </div>
                         <div className="buttons">
-                        <FontAwesomeIcon icon="fa-solid fa-minus" />
-                        <FontAwesomeIcon icon="fa-solid fa-plus" />
+                        <FontAwesomeIcon icon="fa-solid fa-minus" className={'navButton'} />
+                        <FontAwesomeIcon icon="fa-solid fa-plus" className={'navButton'} />
+                        <FontAwesomeIcon icon="fa-solid fa-bag-shopping"/>
                         </div>
                     </div>
                 </div>
@@ -36,12 +38,14 @@ function Home() {
                         <div className="name">
                             <h4>Vans Shoe</h4>
                             <p>
+                            <FontAwesomeIcon icon="fa-solid fa-naira-sign" />
                                 300,000
                             </p>
                         </div>
                         <div className="buttons">
-                        <FontAwesomeIcon icon="fa-solid fa-minus" />
-                        <FontAwesomeIcon icon="fa-solid fa-plus" />
+                        <FontAwesomeIcon icon="fa-solid fa-minus" className={'navButton'} />
+                        <FontAwesomeIcon icon="fa-solid fa-plus" className={'navButton'} />
+                        <FontAwesomeIcon icon="fa-solid fa-bag-shopping" />
                         </div>
                     </div>
                 </div>
@@ -53,12 +57,14 @@ function Home() {
                         <div className="name">
                             <h4>Converse</h4>
                             <p>
+                            <FontAwesomeIcon icon="fa-solid fa-naira-sign" />
                                 200,000
                             </p>
                         </div>
                         <div className="buttons">
-                        <FontAwesomeIcon icon="fa-solid fa-minus" />
-                        <FontAwesomeIcon icon="fa-solid fa-plus" />
+                        <FontAwesomeIcon icon="fa-solid fa-minus" className={'navButton'} />
+                        <FontAwesomeIcon icon="fa-solid fa-plus" className={'navButton'} />
+                        <FontAwesomeIcon icon="fa-solid fa-bag-shopping" />
                         </div>
                     </div>
                 </div>
@@ -70,12 +76,14 @@ function Home() {
                         <div className="name">
                             <h4>Nike Lebrons</h4>
                             <p>
+                            <FontAwesomeIcon icon="fa-solid fa-naira-sign" />
                                 800,000
                             </p>
                         </div>
                         <div className="buttons">
-                        <FontAwesomeIcon icon="fa-solid fa-minus" />
-                        <FontAwesomeIcon icon="fa-solid fa-plus" />
+                        <FontAwesomeIcon icon="fa-solid fa-minus" className={'navButton'} />
+                        <FontAwesomeIcon icon="fa-solid fa-plus" className={'navButton'} />
+                        <FontAwesomeIcon icon="fa-solid fa-bag-shopping" />
                         </div>
                     </div>
                 </div>
@@ -87,12 +95,14 @@ function Home() {
                         <div className="name">
                             <h4>Nike Runners</h4>
                             <p>
+                            <FontAwesomeIcon icon="fa-solid fa-naira-sign" />
                                 340,000
                             </p>
                         </div>
                         <div className="buttons">
-                        <FontAwesomeIcon icon="fa-solid fa-minus" />
-                        <FontAwesomeIcon icon="fa-solid fa-plus" />
+                        <FontAwesomeIcon icon="fa-solid fa-minus" className={'navButton'} />
+                        <FontAwesomeIcon icon="fa-solid fa-plus" className={'navButton'} />
+                        <FontAwesomeIcon icon="fa-solid fa-bag-shopping" />
                         </div>
                     </div>
                 </div>
@@ -104,12 +114,14 @@ function Home() {
                         <div className="name">
                             <h4>Airforce 1 colored</h4>
                             <p>
+                            <FontAwesomeIcon icon="fa-solid fa-naira-sign" />
                                 300,000
                             </p>
                         </div>
                         <div className="buttons">
-                        <FontAwesomeIcon icon="fa-solid fa-minus" />
-                        <FontAwesomeIcon icon="fa-solid fa-plus" />
+                        <FontAwesomeIcon icon="fa-solid fa-minus" className={'navButton'} />
+                        <FontAwesomeIcon icon="fa-solid fa-plus" className={'navButton'} />
+                        <FontAwesomeIcon icon="fa-solid fa-bag-shopping" />
                         </div>
                     </div>
                 </div>
@@ -121,12 +133,14 @@ function Home() {
                         <div className="name">
                             <h4>Trainers</h4>
                             <p>
+                            <FontAwesomeIcon icon="fa-solid fa-naira-sign" />
                                 120,000
                             </p>
                         </div>
                         <div className="buttons">
-                        <FontAwesomeIcon icon="fa-solid fa-minus" />
-                        <FontAwesomeIcon icon="fa-solid fa-plus" />
+                        <FontAwesomeIcon icon="fa-solid fa-minus" className={'navButton'} />
+                        <FontAwesomeIcon icon="fa-solid fa-plus" className={'navButton'} />
+                        <FontAwesomeIcon icon="fa-solid fa-bag-shopping" />
                         </div>
                     </div>
                 </div>
@@ -138,12 +152,14 @@ function Home() {
                         <div className="name">
                             <h4>Converse All stars</h4>
                             <p>
+                            <FontAwesomeIcon icon="fa-solid fa-naira-sign" />
                                 80,000
                             </p>
                         </div>
                         <div className="buttons">
-                        <FontAwesomeIcon icon="fa-solid fa-minus" />
-                        <FontAwesomeIcon icon="fa-solid fa-plus" />
+                        <FontAwesomeIcon icon="fa-solid fa-minus" className={'navButton'} />
+                        <FontAwesomeIcon icon="fa-solid fa-plus" className={'navButton'} />
+                        <FontAwesomeIcon icon="fa-solid fa-bag-shopping" />
                         </div>
                     </div>
                 </div>
@@ -155,12 +171,14 @@ function Home() {
                         <div className="name">
                             <h4>Air Jordans</h4>
                             <p>
+                            <FontAwesomeIcon icon="fa-solid fa-naira-sign" />
                                 250,000
                             </p>
                         </div>
                         <div className="buttons">
-                        <FontAwesomeIcon icon="fa-solid fa-minus" />
-                        <FontAwesomeIcon icon="fa-solid fa-plus" />
+                        <FontAwesomeIcon icon="fa-solid fa-minus" className={'navButton'} />
+                        <FontAwesomeIcon icon="fa-solid fa-plus" className={'navButton'} />
+                        <FontAwesomeIcon icon="fa-solid fa-bag-shopping" />
                         </div>
                     </div>
                 </div>
@@ -172,12 +190,14 @@ function Home() {
                         <div className="name">
                             <h4>Airforce 1</h4>
                             <p>
+                            <FontAwesomeIcon icon="fa-solid fa-naira-sign" />
                                 300,000
                             </p>
                         </div>
                         <div className="buttons">
-                        <FontAwesomeIcon icon="fa-solid fa-minus" />
-                        <FontAwesomeIcon icon="fa-solid fa-plus" />
+                        <FontAwesomeIcon icon="fa-solid fa-minus" className={'navButton'} />
+                        <FontAwesomeIcon icon="fa-solid fa-plus" className={'navButton'} />
+                        <FontAwesomeIcon icon="fa-solid fa-bag-shopping" />
                         </div>
                     </div>
                 </div>
@@ -189,12 +209,14 @@ function Home() {
                         <div className="name">
                             <h4>New Balance</h4>
                             <p>
+                            <FontAwesomeIcon icon="fa-solid fa-naira-sign" />
                                 220,000
                             </p>
                         </div>
                         <div className="buttons">
-                        <FontAwesomeIcon icon="fa-solid fa-minus" />
-                        <FontAwesomeIcon icon="fa-solid fa-plus" />
+                        <FontAwesomeIcon icon="fa-solid fa-minus" className={'navButton'} />
+                        <FontAwesomeIcon icon="fa-solid fa-plus" className={'navButton'} />
+                        <FontAwesomeIcon icon="fa-solid fa-bag-shopping" />
                         </div>
                     </div>
                 </div>
@@ -206,12 +228,14 @@ function Home() {
                         <div className="name">
                             <h4>Gym trainers</h4>
                             <p>
+                            <FontAwesomeIcon icon="fa-solid fa-naira-sign" />
                                 230,000
                             </p>
                         </div>
                         <div className="buttons">
-                        <FontAwesomeIcon icon="fa-solid fa-minus" />
-                        <FontAwesomeIcon icon="fa-solid fa-plus" />
+                        <FontAwesomeIcon icon="fa-solid fa-minus" className={'navButton'} />
+                        <FontAwesomeIcon icon="fa-solid fa-plus" className={'navButton'} />
+                        <FontAwesomeIcon icon="fa-solid fa-bag-shopping" />
                         </div>
                     </div>
                 </div>

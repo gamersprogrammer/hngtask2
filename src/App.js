@@ -1,4 +1,3 @@
-import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import BillingDetails from './components/pages/BillingDetails';
 import Cart from './components/pages/Cart';

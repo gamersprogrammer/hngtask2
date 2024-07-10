@@ -2,16 +2,17 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../FontAwesomeIcons';
 import '../css/Cart.css'
+import { NavLink } from 'react-router-dom';
 function Cart() {
   return (
     <>
         <div className="topText">
             <h2>Your Cart</h2>
-            <a href="#"><p>continue shopping</p></a>
+            <NavLink to="/" className={'nav'}><p>continue shopping</p></NavLink>
         </div>
         <div className="product">
             <h4>PRODUCT</h4>
-            <h4>QUANTITY</h4>
+            <h4 className='notshow'>QUANTITY</h4>
             <h4>TOTAL</h4>
         </div>
         <div className="checkout">
@@ -22,12 +23,12 @@ function Cart() {
                 <p>Size: Small</p>
                 </div>
             </div>
-            <div className="button">
+            <div className="icons">
                 <button>           
-                    <FontAwesomeIcon icon="fa-solid fa-minus" />
+                    <FontAwesomeIcon icon="fa-solid fa-minus" className='innerButton' />
                 </button>
                 <button>                        
-                    <FontAwesomeIcon icon="fa-solid fa-plus" />
+                    <FontAwesomeIcon icon="fa-solid fa-plus" className='innerButton'/>
                 </button>
             </div>
             <div className="total">
@@ -39,8 +40,8 @@ function Cart() {
             <h4>SUBTOTAL</h4>
             <p>450,000</p>
             </div>
-            <div className="button">
-                <button>CHECKOUT</button>
+            <div className="btn">
+                <button className='checkoutbtn'>CHECKOUT</button>
             </div>
         </div>
     </>
