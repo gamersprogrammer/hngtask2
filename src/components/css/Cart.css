@@ -1,0 +1,48 @@
+.topText{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2%;
+}
+.product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2%;
+}
+.checkout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2%;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+.checkout > image{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+.imagesText{
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.subtotal{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    gap: 15px;
+    padding: 2%;
+    flex-wrap: wrap;
+}
+.subtotal > .subText{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}

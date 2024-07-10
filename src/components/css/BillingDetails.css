@@ -1,0 +1,72 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  .formEle {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Add some space between flex items */
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .otherDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Add some space between the input fields */
+  }
+  
+  .discount, .formDetails{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .discount > input[type="text"]{
+    padding: 30px;
+    width: 60%;
+  }
+  label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+#moreContent{
+    padding: 40px;
+}
+  
+  .discount > button {
+    margin-top: 10px;
+    padding: 38px 58px 38px 58px;    background-color: #3f3f3f;
+    background-color: rgba(0, 0, 0, 0.31);
+    border: none;
+    color: #feffff;
+    border-radius: 5px;
+    border: rgba(0, 0, 0, 0.41);
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .text h4 {
+    margin-bottom: 10px;
+  }
+  input[type="text"],
+  input[type="email"],
+  select {
+      padding: 10px; /* Adjust as needed */
+      font-size: 16px; /* Example: Set font size */
+      border-radius: 5px;
+      border:  1px solid #000;
+  }
